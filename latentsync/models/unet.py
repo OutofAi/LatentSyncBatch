@@ -515,7 +515,7 @@ class UNet3DConditionModel(ModelMixin, ConfigMixin):
     def from_pretrained(cls, model_config_name = "second_stage", device="cpu"):
 
         BASE_DIR = Path(__file__).resolve().parent
-        config_dir = (BASE_DIR / ".." / ".." / "configs").resolve()
+        config_dir = (BASE_DIR / ".." / "configs").resolve()
 
         unet_config_path = f"{config_dir}/unet/{model_config_name}.yaml"
         config = OmegaConf.load(unet_config_path)
