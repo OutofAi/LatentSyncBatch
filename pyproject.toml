@@ -67,7 +67,7 @@ dependencies = [
 include-package-data = true
 
 [tool.setuptools.package-data]
-outofsync = [
+latentsync = [
   "configs/*.yaml",
   "configs/*.json",
   "configs/unet/*.yaml",
