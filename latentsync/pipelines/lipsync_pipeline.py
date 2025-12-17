@@ -68,7 +68,7 @@ class LipsyncPipeline(DiffusionPipeline):
             print(f"BASE_DIR:{BASE_DIR}")
             config_dir = (BASE_DIR / ".." / "configs").resolve()
             print(f"config_dir:{config_dir}")
-            scheduler = DDIMScheduler.from_pretrained(config_dir)
+            scheduler = DDIMScheduler.from_pretrained("configs")
 
         if unet == None:
             
