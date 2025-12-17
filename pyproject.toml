@@ -68,9 +68,9 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 outofsync = [
-  "configs/*.yaml",
-  "configs/*.json",
-  "configs/unet/*.yaml",
+  "latentsync/configs/*.yaml",
+  "latentsync/configs/*.json",
+  "latentsync/configs/unet/*.yaml",
   "latentsync/utils/*.png",
   "latentsync/whisper/whisper/assets/multilingual/*.json",
   "latentsync/whisper/whisper/assets/gpt2/*.json",
