@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "latentsync"
-version = "0.0.1"
-description = "<<<ENTER_DESCRIPTION>>>"
+version = "0.0.2"
+description = "Taming Stable Diffusion for Lip Sync!"
 authors = [
     { name = "Bytedance"},
 ]
